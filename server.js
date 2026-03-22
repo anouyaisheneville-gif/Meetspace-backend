@@ -33,3 +33,9 @@ io.on('connection', (socket) => {
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`Server on ${PORT}`));
+
+// Health Check Endpoint
+app.get('/health', (req, res) => {
+  res.status(200).send('MeetSpace Server is Healthy');
+});
+
