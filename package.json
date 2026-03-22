@@ -1,6 +1,7 @@
 {
   "name": "meetspace-backend",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "Signaling server and payment logic for MeetSpace",
   "main": "server.js",
   "scripts": {
